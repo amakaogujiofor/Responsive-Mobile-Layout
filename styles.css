@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+a.logo {
+  color: #cc0e74;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav ul {
+  display: flex;
+  margin-top: 1em;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 1.5em;
+}
+
+nav li a {
+  color: black;
+  font-weight: bold;
+  padding: 0.3em 0.7em;
+  background-color: #ffb2a7;
+  border-radius: 1em;
+  opacity: 0.7;
+}
