@@ -66,6 +66,7 @@ h1 {
   font-size: 1.2em;
   width: 80%;
   margin: 1em auto;
+  /* text-align: center; */
 }
 
 a.cta-btn {
@@ -141,4 +142,36 @@ blockquote p {
   /* img {
     clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   } */
+}
+
+@media (min-width: 1000px) {
+  .hero-left {
+    text-align: left;
+    width: 30%;
+    margin-left: 4em;
+  }
+
+  h1,
+  .hero-left p {
+    width: 100%;
+  }
+
+  img {
+    top: 8em;
+    right: 0;
+    width: 60%;
+    clip-path: none;
+    border-radius: 5px;
+    margin: 0 1em 0 0;
+    opacity: 0.9;
+  }
+  nav ul li a {
+    background: none;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  ul.testimonials {
+    display: flex;
+  }
 }
